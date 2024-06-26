@@ -1,0 +1,230 @@
+@media screen and (max-width:1130px) {
+   .container{
+    width: 920px;
+   } 
+   .off-left__circle{
+    width: 350px;
+    height: 350px;
+
+   }
+   .off-left__circle img{
+    width: 100%;
+   }
+   .banner-left,.banner-right{
+    background-image: none;
+   }
+
+}
+
+
+@media screen and (max-width:960px){
+
+    .container{
+        width: 760px;
+    }
+    .header-icons {
+        gap: 10px;
+    }
+    .menu-list {
+        gap: 20px;
+    }
+    .menu-link{
+        font-size: 1rem;
+    }
+    .landing-left__svg{
+        display: none;
+    }
+    .info-container{
+        flex-wrap: wrap;
+    }
+    .info-boxes{
+        width: 50%;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .off-right__title{
+        font-size: 2.5rem;
+    }
+    .off-right__btn{
+        margin-left: 50px;
+    }
+    .off-right__price{
+        font-size: 2.5rem;
+    }
+    .off-right__off-price{
+        font-size: 1.2rem;
+    }
+    .off-right__timer{
+        width: 70px;
+        height: 70px;
+    }
+
+    .app-tittle__wrapper.fea, .app-title__right {
+        width: 100%;
+    }
+    .app-title-holder{
+        flex-direction: column;
+    }
+    .app-title__right{
+        margin-top:30px;
+    }
+    .app-title__label:first-child{
+        margin-left:0;
+    }
+    .footer-content__input-wrapper{
+        width:190px;
+    }
+ 
+}
+
+@media screen and (max-width:760px){
+    .container{
+        width: 100%;
+        padding:0 20px;
+    }
+    .menu{
+        display: none;
+    }
+    .mobile-menu-btn{
+        display: flex;
+    }
+    .landing-res{
+        flex-direction: column-reverse;
+    }
+    .landing-right, .landing-left{
+        width: 100%;
+    }
+    .landing-left{
+        margin-top:70px;
+        text-align: center;
+    }
+    .landing-left__title {
+        width: 100%;
+    }
+    .landing-left__btn{
+        margin: 25px auto 0 auto;
+    }
+    .landing-left__title{
+        font-size: 2.6rem;
+    }
+    .box-card{
+        width: 48%;
+        margin-bottom: 50px;
+    }
+    .off-wrapper{
+        flex-direction: column;
+    }
+    .off-left, .off-right{
+        width: 100%;
+    }
+    .off-left{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .off-right{
+        text-align: center;
+        margin-top: 60px;
+    }
+    .off-right__price-wrapper,.off-right__timer-wrapper{
+        justify-content: center;
+    }
+    .banners{
+        display: none;
+    }
+
+    .cat-item{
+        width: 48%;
+        margin-bottom: 40px;
+    }
+    .cat-wrapper{
+        flex-wrap: wrap;
+    }
+    .cat-title{
+        margin: 10px 0;
+    }
+    .brands-wrapper{
+        gap:25px;      
+    }
+    .brands-wrapper img{
+        margin: 0 auto;
+    }
+    .footer-content__wrapper{
+        flex-wrap: wrap;
+    }
+    .footer-content__box, .footer-content__box.main{
+        width: 47%;
+        margin-bottom: 50px;
+    }
+
+        
+
+    
+}
+@media screen and (max-width:480px){
+    .header-logo{
+        display: none;
+    }
+    .info-boxes{
+        width: 100%;
+    }
+    .box-card{
+        width: 100%;
+    }
+
+    .app-title{
+        font-size: 2.5rem;
+    }
+    .off-right__btn{
+        margin-left:30px;
+    }
+    .off-right__timer{
+        width: 60px;
+        height: 60px;
+    }
+    .off-right__timer{
+        font-size: 1.6rem;
+    }
+    .off-left__circle{
+        width: 250px;
+        height: 250px;
+    }
+    .off-right__title{
+        font-size: 2.3rem;
+    }
+    .off-right__timer-wrapper{
+        gap:20px;
+        padding:0 10px;
+    }
+    .app-title__label{
+        font-size: 1.2rem;
+        margin-left:15px;
+    }
+    .footer-content__box, .footer-content__box.main{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-content__box.last-box{
+        justify-content: start;
+    }
+    .footer-content__input-wrapper{
+        width:100%;
+    }
+    .footer-copyright span{
+        font-size: 0.9rem;
+
+    }
+    .footer-copyright__link{
+        font-size: 0.8rem;
+    }
+   
+    .footer-copyright{
+        flex-direction: column;
+        gap:10px;
+    }
+ 
+}
